@@ -64,9 +64,9 @@ static char* get_dentry_path(struct dentry *dentry, char *buf, int len)
         {
             p = NULL;
         }
+        mntput(mnt);
     }
 
-    mntput(mnt);
     return p;
 }
 
