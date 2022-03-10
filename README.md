@@ -2,5 +2,5 @@
 pagecache in file
 
 command:
-1. ./file-pagecache
-2. ./file-pagecache filesystem_name=ext4
+1. insmod file-pagecache.ko
+2. insmod file-pagecache.ko filesystem_name=ext4
